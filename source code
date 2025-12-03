@@ -521,7 +521,7 @@
             <h3 class="modal-header" id="modalTitle">Create New Contact</h3>
             <div class="form-group">
                 <label>Full Name</label>
-                <input type="text" id="inputName" placeholder="e.g. John Doe">
+                <input type="text" id="inputName" placeholder="e.g. Sameer Khan">
             </div>
             <div class="form-group">
                 <label>Phone Number</label>
