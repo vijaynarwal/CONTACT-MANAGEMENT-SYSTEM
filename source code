@@ -11,7 +11,7 @@
             --bg-hover: #f1f5f9;
             --text-main: #000000;     /* Black text as requested */
             --text-muted: #64748b;
-            --accent: #2563eb;        /* Professional Blue */
+            --accent: #2563eb;        
             --danger: #ef4444;
             --border: #e2e8f0;
             --keypad-bg: #f8fafc;
