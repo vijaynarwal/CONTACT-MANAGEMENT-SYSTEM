@@ -33,7 +33,7 @@
             overflow: hidden; /* Prevent body scroll, handle inside app */
         }
 
-        /* --- Laptop Window Container (16:9 Aspect Ratio feel) --- */
+        
         .app-window {
             width: 90vw;
             height: 85vh;
@@ -46,7 +46,7 @@
             border: 1px solid var(--border);
         }
 
-        /* --- Sidebar Navigation --- */
+        
         .sidebar {
             width: 250px;
             background-color: #fafafa;
@@ -318,7 +318,7 @@
             border-color: #fecaca;
         }
 
-        /* --- MODAL (Add/Edit/Confirm) --- */
+        
         .modal {
             display: none;
             position: fixed;
@@ -405,7 +405,7 @@
             font-weight: 600;
         }
 
-        /* --- TOAST NOTIFICATION --- */
+        
         .toast {
             position: fixed;
             bottom: 30px;
@@ -576,7 +576,7 @@
             }
         }
 
-        // --- Dialer Logic ---
+        
         function pressKey(key) {
             if (currentNumber.length < 15) {
                 currentNumber += key;
@@ -691,7 +691,7 @@
             renderContacts();
         }
 
-        // --- Delete Logic (Custom Modal) ---
+        
         function confirmDelete(id) {
             deleteId = id;
             document.getElementById('confirmModal').classList.add('open');
@@ -746,7 +746,7 @@
             });
         }
 
-        // --- Helper: Toast Notification ---
+        
         function showToast(message, type = 'default') {
             const toast = document.getElementById('toast');
             toast.textContent = message;
